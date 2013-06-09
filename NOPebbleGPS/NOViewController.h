@@ -7,7 +7,20 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>   
+#import <QuartzCore/QuartzCore.h>
+#import "NOPebbleImage.h"
+#import "NOPebbleMessageQueue.h"
 
-@interface NOViewController : UIViewController
+@interface NOViewController : UIViewController <MKMapViewDelegate>
+{
+    __weak IBOutlet MKMapView *map;
+    
+}
+@property  (nonatomic, retain) NOPebbleMessageQueue *message_queue;
+
+-(void) updateMapLocation:(CLLocation*)newLocation;
+-(void) createImage:(NSTimer*)theTimer;
 
 @end

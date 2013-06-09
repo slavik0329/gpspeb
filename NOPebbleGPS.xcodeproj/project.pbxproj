@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C17EFC0F175BEEBE006862A1 /* PebbleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17EFC0D175BEEBE006862A1 /* PebbleKit.framework */; };
+		C17EFC10175BEEBE006862A1 /* PebbleVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C17EFC0E175BEEBE006862A1 /* PebbleVendor.framework */; };
+		C183983717595CCB00C35599 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C183983617595CCB00C35599 /* ExternalAccessory.framework */; };
+		C183983917595CD800C35599 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C183983817595CD800C35599 /* libz.dylib */; };
+		C183983B17595CE100C35599 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C183983A17595CE100C35599 /* CoreBluetooth.framework */; };
+		C183983D17595CEA00C35599 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C183983C17595CEA00C35599 /* CoreMotion.framework */; };
+		C183983F17595CF400C35599 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C183983E17595CF400C35599 /* MessageUI.framework */; };
+		C183984117595DE400C35599 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C183984017595DE400C35599 /* CoreLocation.framework */; };
+		C1839844175960D000C35599 /* NOPebbleMessageQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C1839843175960D000C35599 /* NOPebbleMessageQueue.m */; };
 		C19DA6D81758C01000CF6576 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19DA6D71758C01000CF6576 /* UIKit.framework */; };
 		C19DA6DA1758C01000CF6576 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19DA6D91758C01000CF6576 /* Foundation.framework */; };
 		C19DA6DC1758C01000CF6576 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19DA6DB1758C01000CF6576 /* CoreGraphics.framework */; };
@@ -19,9 +28,22 @@
 		C19DA6F11758C01000CF6576 /* NOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C19DA6F01758C01000CF6576 /* NOViewController.m */; };
 		C19DA6F41758C01000CF6576 /* NOViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = C19DA6F21758C01000CF6576 /* NOViewController_iPhone.xib */; };
 		C19DA6F71758C01000CF6576 /* NOViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C19DA6F51758C01000CF6576 /* NOViewController_iPad.xib */; };
+		C19DA6FF1758CA3600CF6576 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19DA6FD1758C18400CF6576 /* MapKit.framework */; };
+		C19DA7011758D1DF00CF6576 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C19DA7001758D1DF00CF6576 /* QuartzCore.framework */; };
+		C1CBDF2F1758D360003E19B3 /* NOPebbleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = C1CBDF2E1758D360003E19B3 /* NOPebbleImage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C17EFC0D175BEEBE006862A1 /* PebbleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleKit.framework; path = NOPebbleGPS/PebbleKit.framework; sourceTree = "<group>"; };
+		C17EFC0E175BEEBE006862A1 /* PebbleVendor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleVendor.framework; path = NOPebbleGPS/PebbleVendor.framework; sourceTree = "<group>"; };
+		C183983617595CCB00C35599 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		C183983817595CD800C35599 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C183983A17595CE100C35599 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		C183983C17595CEA00C35599 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		C183983E17595CF400C35599 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C183984017595DE400C35599 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C1839842175960D000C35599 /* NOPebbleMessageQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOPebbleMessageQueue.h; sourceTree = "<group>"; };
+		C1839843175960D000C35599 /* NOPebbleMessageQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOPebbleMessageQueue.m; sourceTree = "<group>"; };
 		C19DA6D41758C01000CF6576 /* NOPebbleGPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NOPebbleGPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C19DA6D71758C01000CF6576 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C19DA6D91758C01000CF6576 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +61,10 @@
 		C19DA6F01758C01000CF6576 /* NOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NOViewController.m; sourceTree = "<group>"; };
 		C19DA6F31758C01000CF6576 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NOViewController_iPhone.xib; sourceTree = "<group>"; };
 		C19DA6F61758C01000CF6576 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NOViewController_iPad.xib; sourceTree = "<group>"; };
+		C19DA6FD1758C18400CF6576 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C19DA7001758D1DF00CF6576 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C1CBDF2D1758D360003E19B3 /* NOPebbleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NOPebbleImage.h; sourceTree = "<group>"; };
+		C1CBDF2E1758D360003E19B3 /* NOPebbleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NOPebbleImage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +72,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C17EFC0F175BEEBE006862A1 /* PebbleKit.framework in Frameworks */,
+				C17EFC10175BEEBE006862A1 /* PebbleVendor.framework in Frameworks */,
+				C183984117595DE400C35599 /* CoreLocation.framework in Frameworks */,
+				C183983F17595CF400C35599 /* MessageUI.framework in Frameworks */,
+				C183983D17595CEA00C35599 /* CoreMotion.framework in Frameworks */,
+				C183983B17595CE100C35599 /* CoreBluetooth.framework in Frameworks */,
+				C183983917595CD800C35599 /* libz.dylib in Frameworks */,
+				C183983717595CCB00C35599 /* ExternalAccessory.framework in Frameworks */,
+				C19DA7011758D1DF00CF6576 /* QuartzCore.framework in Frameworks */,
+				C19DA6FF1758CA3600CF6576 /* MapKit.framework in Frameworks */,
 				C19DA6D81758C01000CF6576 /* UIKit.framework in Frameworks */,
 				C19DA6DA1758C01000CF6576 /* Foundation.framework in Frameworks */,
 				C19DA6DC1758C01000CF6576 /* CoreGraphics.framework in Frameworks */,
@@ -75,6 +111,16 @@
 		C19DA6D61758C01000CF6576 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C17EFC0D175BEEBE006862A1 /* PebbleKit.framework */,
+				C17EFC0E175BEEBE006862A1 /* PebbleVendor.framework */,
+				C183984017595DE400C35599 /* CoreLocation.framework */,
+				C183983E17595CF400C35599 /* MessageUI.framework */,
+				C183983C17595CEA00C35599 /* CoreMotion.framework */,
+				C183983A17595CE100C35599 /* CoreBluetooth.framework */,
+				C183983817595CD800C35599 /* libz.dylib */,
+				C183983617595CCB00C35599 /* ExternalAccessory.framework */,
+				C19DA7001758D1DF00CF6576 /* QuartzCore.framework */,
+				C19DA6FD1758C18400CF6576 /* MapKit.framework */,
 				C19DA6D71758C01000CF6576 /* UIKit.framework */,
 				C19DA6D91758C01000CF6576 /* Foundation.framework */,
 				C19DA6DB1758C01000CF6576 /* CoreGraphics.framework */,
@@ -91,6 +137,10 @@
 				C19DA6F01758C01000CF6576 /* NOViewController.m */,
 				C19DA6F21758C01000CF6576 /* NOViewController_iPhone.xib */,
 				C19DA6F51758C01000CF6576 /* NOViewController_iPad.xib */,
+				C1CBDF2D1758D360003E19B3 /* NOPebbleImage.h */,
+				C1CBDF2E1758D360003E19B3 /* NOPebbleImage.m */,
+				C1839842175960D000C35599 /* NOPebbleMessageQueue.h */,
+				C1839843175960D000C35599 /* NOPebbleMessageQueue.m */,
 				C19DA6DE1758C01000CF6576 /* Supporting Files */,
 			);
 			path = NOPebbleGPS;
@@ -181,6 +231,8 @@
 				C19DA6E41758C01000CF6576 /* main.m in Sources */,
 				C19DA6E81758C01000CF6576 /* NOAppDelegate.m in Sources */,
 				C19DA6F11758C01000CF6576 /* NOViewController.m in Sources */,
+				C1CBDF2F1758D360003E19B3 /* NOPebbleImage.m in Sources */,
+				C1839844175960D000C35599 /* NOPebbleMessageQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,6 +293,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -266,6 +319,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -275,10 +329,16 @@
 		C19DA6FB1758C01000CF6576 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../pebble-dev/PebbleKit_1.1/iOS\"",
+					"\"$(SRCROOT)/NOPebbleGPS\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NOPebbleGPS/NOPebbleGPS-Prefix.pch";
 				INFOPLIST_FILE = "NOPebbleGPS/NOPebbleGPS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -286,10 +346,16 @@
 		C19DA6FC1758C01000CF6576 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../pebble-dev/PebbleKit_1.1/iOS\"",
+					"\"$(SRCROOT)/NOPebbleGPS\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "NOPebbleGPS/NOPebbleGPS-Prefix.pch";
 				INFOPLIST_FILE = "NOPebbleGPS/NOPebbleGPS-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -313,6 +379,7 @@
 				C19DA6FC1758C01000CF6576 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
